@@ -11,12 +11,12 @@ This folder includes multiple Python scripts that convert a CSV file into a PDF 
 
 ## Requirements
 
-You will need Python 3 and some additional libraries depending on the script:
+You will need Python 3 and following additional libraries:
+- `pandas`
+- `pdfkit`
 
 ### 1. `csv to .pdf .py`
 
-- `pandas`
-- `pdfkit`
 - **System Dependency:** `wkhtmltopdf` must be installed and accessible in your system's PATH.
 
 Install the required Python packages:
@@ -48,6 +48,7 @@ pip install reportlab
 ## Running the Scripts
 
 All scripts default to the sample file `annual-enterprise-survey-2021-financial-year-provisional-csv small.csv`.
+You can replace the input CSV filename in the scripts with your own.
 
 ### Example usage:
 
@@ -66,7 +67,6 @@ Each script will output a file named `output.pdf` or `output3.pdf` in the curren
 
 ## Notes
 
-* You can replace the input CSV filename in the scripts with your own.
 * If using `pdfkit`, ensure `wkhtmltopdf` is installed and configured:
 
   * Download from: [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html)
@@ -74,4 +74,4 @@ Each script will output a file named `output.pdf` or `output3.pdf` in the curren
 
 ## License
 
-This project is for educational and demonstrative purposes. No warranty provided.
+[License.md](https://github.com/drakeredwind01/___Open-Python-Projects/blob/main/LICENCE.MD)
